@@ -1,0 +1,9 @@
+{
+  "name": "soundcloud-react",
+  "version": "1.0.0",
+  "description": "A React + Redux application that uses the Soundcloud API.",
+  "main": "index.js",
+  "repository": "https://github.com/C-Rodg/Soundcloud-React-Redux.git",
+  "author": "C-Rodg",
+  "license": "MIT"
+}
