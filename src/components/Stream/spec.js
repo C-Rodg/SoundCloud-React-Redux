@@ -1,4 +1,4 @@
-import Stream from './Stream';
+import Stream from './presenter';
 import { shallow } from 'enzyme';
 
 describe('Stream', () => {
@@ -7,7 +7,7 @@ describe('Stream', () => {
     };
 
     it('shows two elements', () => {
-        const element = shallow(<Stream {...props} />);
-        expect(element.find('.track')).to.have.length(2);
+        const el = shallow(<Stream { ...props } />);
+        expect(el.find('.track')).to.have.length(2);
     });
 });
