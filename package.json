@@ -6,13 +6,12 @@
   "repository": "https://github.com/C-Rodg/Soundcloud-React-Redux.git",
   "author": "C-Rodg",
   "license": "MIT",
-  "scripts" : {
-    "start" : "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
-    "test" : "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/**/*spec.js'",
-    "test:watch" : "yarn run test -- --watch"
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/**/*spec.js'",
+    "test:watch": "yarn run test -- --watch"
   },
   "dependencies": {
-    "axios": "^0.15.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
@@ -21,7 +20,8 @@
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4",
     "redux-thunk": "^2.1.0",
-    "soundcloud": "^3.1.2"
+    "soundcloud": "^3.1.2",
+    "whatwg-fetch": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -40,8 +40,8 @@
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
-  "babel" : {
-    "presets" : [
+  "babel": {
+    "presets": [
       "es2015",
       "react",
       "stage-0"

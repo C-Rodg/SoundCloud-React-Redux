@@ -1,6 +1,6 @@
 import React from 'react';
 
-function( { children } ) {
+function App({ children }) {
     return <div>{children}</div>;
 }
 
